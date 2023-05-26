@@ -29,7 +29,7 @@ pm.test("Visualize data", function () {
     }
     </style>`;
     
-    // GPT 3.5/4
+    // ChatGPT API data
     let generalData = jsonResponse.data;
     let generalTemplate = `<h4>Chat</h4>
                             <table class="my-table">
